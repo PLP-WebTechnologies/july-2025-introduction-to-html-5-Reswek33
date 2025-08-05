@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Accessible Semantic HTML5 Page</title>
+  <meta name="description" content="A sample web page structured using only semantic HTML5 elements for accessibility and SEO.">
+</head>
+<body>
+
+  <header role="banner">
+    <h1>Accessible Web Design</h1>
+    <p>Your guide to semantic HTML5 and inclusive web development.</p>
+  </header>
+
+  <nav role="navigation" aria-label="Main navigation">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#articles">Articles</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main role="main">
+    
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Us</h2>
+      <p>We specialize in crafting accessible and SEO-friendly websites using modern HTML5 techniques. Our mission is to make the web usable and discoverable for everyone.</p>
+    </section>
+
+    <section id="services" aria-labelledby="services-heading">
+      <h2 id="services-heading">Our Services</h2>
+      <article>
+        <h3>Semantic HTML Consulting</h3>
+        <p>We help you structure your website using meaningful HTML5 elements for better accessibility and SEO.</p>
+      </article>
+      <article>
+        <h3>Accessibility Audits</h3>
+        <p>Get a comprehensive review of your website's accessibility with actionable recommendations.</p>
+      </article>
+    </section>
+
+    <section id="articles" aria-labelledby="articles-heading">
+      <h2 id="articles-heading">Latest Articles</h2>
+      <article>
+        <header>
+          <h3><a href="#">Why Semantic HTML Matters</a></h3>
+          <p>Published on August 1, 2025</p>
+        </header>
+        <p>Discover how semantic HTML improves user experience, accessibility, and search engine rankings.</p>
+      </article>
+      <article>
+        <header>
+          <h3><a href="#">Top 5 Accessibility Tips</a></h3>
+          <p>Published on July 20, 2025</p>
+        </header>
+        <p>Learn how small changes in your HTML structure can make a big difference for users with disabilities.</p>
+      </article>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
+      <address>
+        <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+        <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+        <p>Location: 123 Web Way, Internet City, WWW</p>
+      </address>
+    </section>
+
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 Accessible Web Design. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
